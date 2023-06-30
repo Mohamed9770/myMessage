@@ -21,6 +21,7 @@ theMessageButton.addEventListener('click', function() {
        myMessage.innerText = inputBox.value;
     }
 });
+const fruits = ['Apples', 'Pears', 'Oranges', 'Grapes', 'Bananas'];
 const fruitList = document.querySelector(".fruits");
 
 for(let i=0;i<fruits.length;i++){
